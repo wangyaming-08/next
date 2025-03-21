@@ -4,7 +4,7 @@ import React from 'react'
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
 
-export default function herder() {
+export default function Herder() {
     const pathname = usePathname()
     const linkActiveClassName = (path) => {
         return pathname === path ? 'text-blue-500' : ''
