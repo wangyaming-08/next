@@ -8,6 +8,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <MainComponent imgSrc={HomeBgImg} text={'Professional page'}></MainComponent>
+    <MainComponent imgSrc={HomeBgImg} text={'Home page'}></MainComponent>
   );
 }
