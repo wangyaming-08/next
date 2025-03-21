@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from "next/image";
 import PropTypes from 'prop-types';
-import text from 'uview-ui/libs/config/props/text';
 
 function MainComponent({ imgSrc, text }) {
     return (
